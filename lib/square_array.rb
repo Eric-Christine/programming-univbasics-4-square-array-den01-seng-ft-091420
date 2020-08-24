@@ -9,5 +9,4 @@ def square_array(array)
     new_array << x * x
     count += 1
   end
-  binding.pry
 end
