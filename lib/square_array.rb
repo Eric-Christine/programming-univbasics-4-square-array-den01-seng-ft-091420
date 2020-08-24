@@ -8,5 +8,5 @@ def square_array(array)
     x = array.shift
     x * x << new_array
   end
-  
+  binding.pry
 end
