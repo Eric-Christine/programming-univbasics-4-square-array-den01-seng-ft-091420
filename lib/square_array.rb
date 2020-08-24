@@ -1,6 +1,10 @@
 def square_array(array)
   
-  new_numbers = 
+  
   count = 0 
+  new_array = []
+  
+  while count < array.length do 
+    array.pop()
   
 end
