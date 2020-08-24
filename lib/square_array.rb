@@ -7,5 +7,6 @@ def square_array(array)
   while count < array.length do 
     x = array.shift()
     new_array << x * x
+    count += 1
   end
 end
