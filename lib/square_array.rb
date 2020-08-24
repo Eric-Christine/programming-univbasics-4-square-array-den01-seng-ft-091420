@@ -5,7 +5,7 @@ def square_array(array)
   new_array = []
   
   while count < array.length do 
-    x = array.shift
+    x = array.shift()
     new_array << x * x
   end
   binding.pry
