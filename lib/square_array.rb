@@ -5,6 +5,8 @@ def square_array(array)
   new_array = []
   
   while count < array.length do 
-    array.pop()
+    x = array.shift
+    x * x << new_array
+  end
   
 end
