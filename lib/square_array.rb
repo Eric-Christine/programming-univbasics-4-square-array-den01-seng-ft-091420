@@ -8,6 +8,6 @@ def square_array(array)
     x = array.shift
     new_array << x * x
     count += 1
-    binding.pry
   end
+  binding.pry
 end
